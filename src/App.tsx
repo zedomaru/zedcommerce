@@ -1,7 +1,7 @@
-import { useState } from 'react';
+import Directory from './components/directory/directory.component';
 
 const App = () => {
-  return <div>Hello</div>;
+  return <Directory />;
 };
 
 export default App;
