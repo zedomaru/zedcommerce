@@ -1,9 +1,8 @@
 import { Outlet, Link } from 'react-router-dom';
 import { ReactComponent as ZedLogo } from '../../assets/Logo-colored.svg';
 import './navigation.styles.scss';
-type Props = {};
 
-const Navigation = (props: Props) => {
+const Navigation = () => {
   return (
     <>
       <div className="navigation">
@@ -13,6 +12,9 @@ const Navigation = (props: Props) => {
         <div className="nav-links-container">
           <Link className="nav-link" to="/shop">
             Shop
+          </Link>
+          <Link className="nav-link" to="/sign-in">
+            Sign In
           </Link>
         </div>
       </div>
